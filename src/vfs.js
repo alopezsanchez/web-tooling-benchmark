@@ -12,6 +12,10 @@ fs.writeFileSync(
   require("raw-loader!../third_party/backbone-1.1.0.js")
 );
 fs.writeFileSync(
+  "third_party/bootstrap-4.0.0.css",
+  require("raw-loader!../third_party/bootstrap-4.0.0.css")
+);
+fs.writeFileSync(
   "third_party/jquery-3.2.1.js",
   require("raw-loader!../third_party/jquery-3.2.1.js")
 );
@@ -78,6 +82,10 @@ fs.writeFileSync(
 fs.writeFileSync(
   "third_party/vue.runtime.esm-nobuble-2.4.4.js",
   require("raw-loader!../third_party/vue.runtime.esm-nobuble-2.4.4.js")
+);
+fs.writeFileSync(
+  "third_party/example.css",
+  require("raw-loader!../third_party/example.css")
 );
 
 module.exports = fs;
